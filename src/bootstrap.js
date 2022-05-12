@@ -6,6 +6,7 @@ import About from "./components/about";
 
 import "./style/main.scss";
 import NavBar from "./components/NavBar";
+import Contact from "./components/Contact";
 
 function main() {
   ReactDOM.render(
@@ -17,6 +18,9 @@ function main() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/contact">
+          <Contact />
         </Route>
       </Switch>
     </BrowserRouter>,
